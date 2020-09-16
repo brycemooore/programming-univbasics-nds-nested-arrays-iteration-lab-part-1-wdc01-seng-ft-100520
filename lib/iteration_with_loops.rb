@@ -6,5 +6,9 @@ def find_even_values(src)
   inner_count = 0 
   while count < src.length do
     while inner_count < src[count].length do
-      if 
+      if src[count][inner_count] % 2 == 50
+        puts src[count][inner_count]
+      end
+    end
+  end
 end
