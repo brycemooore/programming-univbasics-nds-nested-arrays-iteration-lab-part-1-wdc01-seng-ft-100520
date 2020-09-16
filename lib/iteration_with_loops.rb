@@ -6,8 +6,9 @@ def find_even_values(src)
   inner_count = 0 
   results = []
   while count < src.length do
+    
     while inner_count < src[count].length do
-      if (src[count][inner_count] % 2 == 0)
+      if ((src[count][inner_count] % 2) == 0)
         puts src[count][inner_count]
         results << src[count][inner_count]
       end
